@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/ib_apple"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                app:srcCompat="@drawable/ic_apple"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/ib_avocado"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                app:srcCompat="@drawable/ic_avocado"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/ib_banana"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                app:srcCompat="@drawable/ic_banana"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/ib_grape"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                app:srcCompat="@drawable/ic_grapes"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/ib_mango"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                app:srcCompat="@drawable/ic_mango"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/ib_orange"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                app:srcCompat="@drawable/ic_orange"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/ib_papaya"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                app:srcCompat="@drawable/ic_papaya"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/ib_strawberry"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                app:srcCompat="@drawable/ic_strawberry"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/ib_tangerine"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                app:srcCompat="@drawable/ic_tangerine"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/ib_watermelon"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                app:srcCompat="@drawable/ic_watermelon" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
